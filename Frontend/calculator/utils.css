@@ -1,0 +1,52 @@
+
+.bg-red{
+    background-color: rgb(7, 7, 7);
+}
+
+/* .mx-auto{
+    margin: auto;
+} */
+
+
+.flex {
+    display: flex;
+
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.button text{
+    font-size: 2px;
+}
+
+.bg-black{
+    background-color: rgb(201, 110, 6);
+}
+/* 
+.font-size{
+      font-size: 10px;
+} */
+
+.bg-yellow{
+    background-color: rgb(58, 57, 57);
+}
+
+.bg-blue{
+    background-color: rgb(143, 140, 140);
+}
+
+.text-color-black{
+    color: black;
+}
+.text-aling{
+    text-align: center;
+}
+
+.width{
+    width: 135px;
+}

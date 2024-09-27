@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav{
+    height: 60PX;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url(box.image11.png);
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+.add-first{
+    color: #9f9999;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+/* .https://www.amazon.com/ref=nav_logo */
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(229, 147, 47);
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+     border: 2px solid orange;
+}
+
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    margin: 15px;
+}
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-desls{
+    font-size: 0.90rem;
+    font-weight: 700;
+
+
+}
+
+.hero-section{
+    /* background-image: url("HeRO-image (2).logo.jpg");
+    height: 181px; */
+    /* background-size: contain; */
+    background-image: url("box.image3.jpg");
+    height: 200px;
+    background-size: cover;
+    
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 219, 225);
+}
+.box{
+    /* border: 2px solid black; */
+    height: 370px;
+    width: 23%;
+    background-color: white;
+    padding: 30px 0px  18px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+/* rgb(196, 206, 213)  */
+.box:hover{
+    border: 2px solid rgb(206, 212, 216);
+    transition: 0.5s;
+}
+/* rgb(202, 213, 218) */
+.box-image{
+    height: 280px;
+    background-size: contain;
+    /* padding-top: 1rem; */
+    margin-top: 0.70rem;
+    
+     /* margin-top: 1rem;
+    margin-bottom: 1rem;  */
+}
+
+.box-contain{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-contain p{
+    color: rgb(5, 91, 117);
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+.box-contain h2{
+    color: #323838;
+    font-size: 1.39rem;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 219, 225);
+}
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.foot-panel1 i{
+    margin: 0.60rem;
+}
+
+.foot-panel2{
+   background-color: #222f3d;
+   color: white;
+   height: 380px;
+   display: flex;
+   justify-content: space-evenly;
+   padding-left: 3rem;
+   padding-right: 3rem;
+  
+}
+
+ul{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 11.5px;
+    color: #d5d7d8;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+ul p{
+    font-size: 1rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.005px solid rgb(89, 92, 115);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(box.image11.png);
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+.foot-panel5{
+    background-color: #16202b;
+    color: white;
+    height: 90px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top:25px ;
+    
+
+}
+.pages a{
+    display: inline;
+    margin: 10px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+.hero-section2{
+    background-image: url("box.image3.jpg");
+    height: 200px;
+    background-size: cover;
+    
+}
